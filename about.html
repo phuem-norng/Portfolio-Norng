@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn more about Phuem Norng - UI/UX Designer specializing in digital experiences, design systems, and web development." />
+  <meta name="author" content="Phuem Norng" />
+  <title>About Me | Phuem Norng - UI/UX Designer Portfolio</title>
+  
+  <!-- Preload critical assets -->
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" as="style">
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+      <!-- CSS Files -->
+    <link rel="stylesheet" href="css/theming.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-K6Bl8jRfD47m3+" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.png" type="image/png" />
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="header" role="banner">
+    <div class="container">
+      <a href="index.html" class="logo" aria-label="Phuem Norng Portfolio Home">Port<span>folio</span></a>
+      
+      <nav class="nav" role="navigation" aria-label="Main Navigation">
+        <button class="hamburger" aria-expanded="false" aria-controls="menu" aria-label="Toggle navigation">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+        
+        <ul id="menu" class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+              <i class="fas fa-moon"></i>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="fade-in">About Me</h1>
+      <p class="subtitle fade-in delay-1">Get to know me better - my journey, skills, and passion for design</p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="detailed-about">
+    <div class="container about-grid">
+      <figure class="about-image fade-in">
+        <img src="assets/img/profile.png" alt="Portrait of Phuem Norng, UI/UX Designer" class="profile-img-large" />
+      </figure>
+      
+      <article class="about-details fade-in delay-1">
+        <h2>Who I Am</h2>
+        <p>I'm a passionate UI/UX designer with a strong focus on crafting beautiful, functional, and user-friendly digital experiences. With over 6 years in the creative industry, I've collaborated with startups, agencies, and established companies to transform ideas into impactful designs.</p>
+        <p>My approach combines creativity with strategic thinking, ensuring every design is not only visually appealing but also meaningful, intuitive, and engaging for users. I believe in designing with purpose and creating solutions that solve real problems.</p>
+        
+        <dl class="personal-info">
+          <div class="info-item">
+            <dt>Full Name:</dt>
+            <dd>Phuem Norng</dd>
+          </div>
+          <div class="info-item">
+            <dt>Email:</dt>
+            <dd><a href="mailto:phuemnorng@gmail.com">phuemnorng@gmail.com</a></dd>
+          </div>
+          <div class="info-item">
+            <dt>Location:</dt>
+            <dd>Phnom Penh, Cambodia</dd>
+          </div>
+          <div class="info-item">
+            <dt>Freelance:</dt>
+            <dd>Available</dd>
+          </div>
+        </dl>
+
+        <a href="contact.html" class="btn btn-primary">Contact Me</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills-section">
+    <div class="container">
+      <h2 class="fade-in">My Skills</h2>
+      <div class="skills-grid">
+        <!-- Frontend -->
+        <div class="skill-category fade-in delay-1">
+          <h3><i class="fas fa-code"></i> Frontend Development</h3>
+          <div class="skill-item" role="progressbar" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100">
+            <div><span>HTML5</span><span>89%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-width="89"></div></div>
+          </div>
+          <div class="skill-item" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+            <div><span>CSS3/SASS</span><span>90%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+          </div>
+          <div class="skill-item" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+            <div><span>JavaScript</span><span>80%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
+          </div>
+        </div>
+
+        <!-- Design -->
+        <div class="skill-category fade-in delay-2">
+          <h3><i class="fas fa-pencil-alt"></i> Design Expertise</h3>
+          <div class="skill-item" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+            <div><span>UI/UX Design</span><span>95%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-width="95"></div></div>
+          </div>
+          <div class="skill-item" role="progressbar" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100">
+            <div><span>Responsive Design</span><span>97%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-width="97"></div></div>
+          </div>
+          <div class="skill-item" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100">
+            <div><span>Figma/Adobe XD</span><span>87%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-width="87"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="experience-section">
+    <div class="container">
+      <h2 class="fade-in">Experience & Education</h2>
+      <ol class="timeline">
+        <li class="timeline-item fade-in">
+          <time datetime="2020">2020 – Present</time>
+          <div>
+            <h3>Senior UI/UX Designer</h3>
+            <span class="company">Tech Solutions Inc.</span>
+            <p>Leading design projects from concept to delivery, creating intuitive and visually compelling user interfaces for web and mobile applications. Collaborating with cross-functional teams to implement user-centered design principles.</p>
+          </div>
+        </li>
+        <li class="timeline-item fade-in delay-1">
+          <time datetime="2017">2017 – 2020</time>
+          <div>
+            <h3>Graphic & Web Designer</h3>
+            <span class="company">Digital Agency</span>
+            <p>Designed websites, branding, and marketing assets with a focus on usability, consistency, and aesthetics. Developed comprehensive design systems and maintained brand consistency across multiple platforms.</p>
+          </div>
+        </li>
+        <li class="timeline-item fade-in delay-2">
+          <time datetime="2015">2015 – 2017</time>
+          <div>
+            <h3>Design Intern</h3>
+            <span class="company">Creative Studio</span>
+            <p>Assisted senior designers in layouts, illustrations, and mockups while gaining hands-on experience with design systems. Participated in client meetings and contributed to brainstorming sessions.</p>
+          </div>
+        </li>
+        <li class="timeline-item fade-in delay-3">
+          <time datetime="2011">2011 – 2015</time>
+          <div>
+            <h3>B.A. in Design & Visual Communication</h3>
+            <span class="company">State University</span>
+            <p>Graduated with honors, specializing in UX design, visual communication, and digital media. Completed coursework in human-computer interaction, design theory, and interactive media.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-content">
+      <div>
+        <h3>Portfolio</h3>
+        <p>Designing meaningful and impactful digital experiences that solve real problems.</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer Navigation">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="footer-social">
+        <h3>Connect</h3>
+        <div class="social-links">
+            <a href="https://github.com/phuem-norng" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/phuem-norng-83930b341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://x.com/phuemnorng?s=21" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+         </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Phuem Norng. All rights reserved.</p>
+    </div>
+  </footer>
+        <!-- JavaScript Files -->
+    <script src="js/darkmode.js"></script>
+  <script>
+    // Set current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+    
+    // Mobile menu toggle
+    const hamburger = document.querySelector('.hamburger');
+    const navList = document.querySelector('.nav-list');
+    
+    hamburger.addEventListener('click', () => {
+      const isExpanded = hamburger.getAttribute('aria-expanded') === 'true';
+      hamburger.classList.toggle('active');
+      navList.classList.toggle('active');
+      hamburger.setAttribute('aria-expanded', !isExpanded);
+    });
+    
+    // Close menu when clicking on a link
+    document.querySelectorAll('.nav-list a').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navList.classList.remove('active');
+        hamburger.setAttribute('aria-expanded', 'false');
+      });
+    });
+    
+    // Theme toggle functionality
+    const themeToggle = document.getElementById('theme-toggle');
+    const themeIcon = themeToggle.querySelector('i');
+    
+    // Check for saved theme preference or respect OS preference
+    if (localStorage.getItem('theme') === 'dark' || 
+        (window.matchMedia('(prefers-color-scheme: dark)').matches && !localStorage.getItem('theme'))) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      themeIcon.classList.replace('fa-moon', 'fa-sun');
+    }
+    
+    themeToggle.addEventListener('click', () => {
+      if (document.documentElement.getAttribute('data-theme') === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'light');
+        themeIcon.classList.replace('fa-sun', 'fa-moon');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        themeIcon.classList.replace('fa-moon', 'fa-sun');
+        localStorage.setItem('theme', 'dark');
+      }
+    });
+    
+    // Animate skill bars when they come into view
+    const animateSkillBars = () => {
+      const skillBars = document.querySelectorAll('.skill-progress');
+      
+      skillBars.forEach(bar => {
+        const rect = bar.getBoundingClientRect();
+        const isInViewport = rect.top <= (window.innerHeight || document.documentElement.clientHeight) && 
+                             rect.bottom >= 0;
+        
+        if (isInViewport && !bar.classList.contains('animated')) {
+          bar.style.width = bar.getAttribute('data-width') + '%';
+          bar.classList.add('animated');
+        }
+      });
+    };
+    
+    // Run on load and scroll
+    window.addEventListener('load', animateSkillBars);
+    window.addEventListener('scroll', animateSkillBars);
+    
+    // Fade in elements when they come into view
+    const fadeElements = document.querySelectorAll('.fade-in');
+    
+    const checkFade = () => {
+      fadeElements.forEach(el => {
+        const rect = el.getBoundingClientRect();
+        const isInViewport = rect.top <= (window.innerHeight || document.documentElement.clientHeight) * 0.85 && 
+                             rect.bottom >= 0;
+        
+        if (isInViewport) {
+          el.style.opacity = '1';
+          el.style.transform = 'translateY(0)';
+        }
+      });
+    };
+    
+    // Set initial state
+    fadeElements.forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(20px)';
+      el.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+    });
+    
+    // Run on load and scroll
+    window.addEventListener('load', checkFade);
+    window.addEventListener('scroll', checkFade);
+  </script>
+</body>
+</html>

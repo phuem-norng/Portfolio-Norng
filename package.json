@@ -1,0 +1,19 @@
+{
+  
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A fully responsive personal portfolio website built with HTML, CSS, and JavaScript. No frameworks or libraries were used in the development of this project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+  
+}
+
